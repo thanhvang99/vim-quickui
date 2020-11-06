@@ -1,0 +1,343 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/3671ad7/
+<c-f10>	test/menu_example.vim	/^	noremap <c-f10> :call MenuHelp_TaskList()<cr>$/;"	m
+<space><space>	test/demo_menu.vim	/^nnoremap <silent><space><space> :call quickui#menu#open()<cr>$/;"	m
+<space><space>	test/menu_example.vim	/^nnoremap <silent><space><space> :call quickui#menu#open()<cr>$/;"	m
+Available Widgets	MANUAL.md	/^## Available Widgets$/;"	s	chapter:Content
+Buffer switcher	MANUAL.md	/^### Buffer switcher$/;"	S	section:Content""Tools
+Content	MANUAL.md	/^# Content $/;"	c
+Content	README.md	/^# Content $/;"	c
+Context menu	MANUAL.md	/^### Context menu$/;"	S	section:Content""Available Widgets
+Context menu	README.md	/^### Context menu$/;"	S	section:Content""Gallery Screenshot
+Credit	MANUAL.md	/^## Credit$/;"	s	chapter:Content
+Credit	README.md	/^## Credit$/;"	s	chapter:Content
+Customize	MANUAL.md	/^## Customize$/;"	s	chapter:Content
+Function list	MANUAL.md	/^### Function list$/;"	S	section:Content""Tools
+Gallery Screenshot	README.md	/^## Gallery Screenshot$/;"	s	chapter:Content
+Help viewer	MANUAL.md	/^### Help viewer$/;"	S	section:Content""Tools
+How to change border style	MANUAL.md	/^### How to change border style$/;"	S	section:Content""Customize
+How to change preview window size	MANUAL.md	/^### How to change preview window size$/;"	S	section:Content""Customize
+How to change the color scheme	MANUAL.md	/^### How to change the color scheme$/;"	S	section:Content""Customize
+Installation	MANUAL.md	/^## Installation$/;"	s	chapter:Content
+Installation	README.md	/^## Installation$/;"	s	chapter:Content
+K	test/menu_example.vim	/^nnoremap <silent>K :call quickui#tools#clever_context('k', g:context_menu_k, {})<cr>$/;"	m
+Listbox	MANUAL.md	/^### Listbox$/;"	S	section:Content""Available Widgets
+Listbox	README.md	/^### Listbox$/;"	S	section:Content""Gallery Screenshot
+Menu	MANUAL.md	/^### Menu$/;"	S	section:Content""Available Widgets
+Menu	README.md	/^### Menu$/;"	S	section:Content""Gallery Screenshot
+MyCallback	autoload/quickui/context.vim	/^	function! MyCallback(code)$/;"	f
+MyCallback	test/test_listbox.vim	/^	function! MyCallback(code)$/;"	f
+MyCallback	test/test_nvim_context.vim	/^	function! MyCallback(code)$/;"	f
+MyCallback	test/test_nvim_list.vim	/^	function! MyCallback(code)$/;"	f
+Preview quickfix	MANUAL.md	/^### Preview quickfix$/;"	S	section:Content""Tools
+Preview tag	MANUAL.md	/^### Preview tag$/;"	S	section:Content""Tools
+Preview window	MANUAL.md	/^### Preview window$/;"	S	section:Content""Available Widgets
+Preview window	README.md	/^### Preview window$/;"	S	section:Content""Gallery Screenshot
+QuickThemeChange	plugin/quickui.vim	/^function! QuickThemeChange(theme)$/;"	f
+Requirements	MANUAL.md	/^## Requirements$/;"	s	chapter:Content
+Requirements	README.md	/^## Requirements$/;"	s	chapter:Content
+Specify color group precisely	MANUAL.md	/^### Specify color group precisely$/;"	S	section:Content""Customize
+TermExit	test/test_terminal.vim	/^function! TermExit(code)$/;"	f
+Terminal	MANUAL.md	/^### Terminal$/;"	S	section:Content""Available Widgets
+Terminal	README.md	/^### Terminal$/;"	S	section:Content""Gallery Screenshot
+Textbox	MANUAL.md	/^### Textbox$/;"	S	section:Content""Available Widgets
+Textbox	README.md	/^### Textbox$/;"	S	section:Content""Gallery Screenshot
+Tools	MANUAL.md	/^## Tools$/;"	s	chapter:Content
+User Manual	MANUAL.md	/^# User Manual$/;"	c
+User Manual	README.md	/^## User Manual$/;"	s	chapter:Content
+What Is It ?	README.md	/^# What Is It ?$/;"	c
+Who Am I ?	MANUAL.md	/^## Who Am I ?$/;"	s	chapter:Content
+Who Am I ?	README.md	/^## Who Am I ?$/;"	s	chapter:Content
+buf	test/test_nvim_popup.vim	/^let buf = nvim_create_buf(v:false, v:true)$/;"	v
+code	test/test_listbox.vim	/^		let code = quickui#listbox#inputlist(lines, opts)$/;"	v
+content	test/test_listbox.vim	/^	let content = [$/;"	v
+content	test/test_nvim_list.vim	/^		let content += ['line: ' . ix]$/;"	v
+content	test/test_nvim_list.vim	/^	let content = [$/;"	v
+g:context_menu_k	test/menu_example.vim	/^let g:context_menu_k = [$/;"	v
+g:quickui#context#code	autoload/quickui/context.vim	/^	let g:quickui#context#code = code$/;"	v
+g:quickui#context#code	autoload/quickui/context.vim	/^	let g:quickui#context#code = retval$/;"	v
+g:quickui#context#current	autoload/quickui/context.vim	/^	let g:quickui#context#current = hwnd$/;"	v
+g:quickui#context#cursor	autoload/quickui/context.vim	/^	let g:quickui#context#cursor = hwnd.index$/;"	v
+g:quickui#context#cursor	autoload/quickui/context.vim	/^let g:quickui#context#cursor = -1$/;"	v
+g:quickui#core#__object_pool__	autoload/quickui/core.vim	/^		let g:quickui#core#__object_pool__ = {}$/;"	v
+g:quickui#core#__object_pool__	autoload/quickui/core.vim	/^		let g:quickui#core#__object_pool__[a:name] = []$/;"	v
+g:quickui#core#has_floating	autoload/quickui/core.vim	/^let g:quickui#core#has_floating = has('nvim-0.4')$/;"	v
+g:quickui#core#has_nvim	autoload/quickui/core.vim	/^let g:quickui#core#has_nvim = has('nvim')$/;"	v
+g:quickui#core#has_popup	autoload/quickui/core.vim	/^let g:quickui#core#has_popup = exists('*popup_create') && v:version >= 800$/;"	v
+g:quickui#listbox#current	autoload/quickui/listbox.vim	/^	let g:quickui#listbox#current = hwnd$/;"	v
+g:quickui#listbox#current	test/test_nvim_list.vim	/^	let g:quickui#listbox#current = hwnd$/;"	v
+g:quickui#listbox#cursor	autoload/quickui/listbox.vim	/^	let g:quickui#listbox#cursor = quickui#utils#get_cursor(a:winid) - 1$/;"	v
+g:quickui#listbox#cursor	autoload/quickui/listbox.vim	/^	let g:quickui#listbox#cursor = quickui#utils#get_cursor(winid) - 1$/;"	v
+g:quickui#listbox#cursor	autoload/quickui/listbox.vim	/^let g:quickui#listbox#cursor = -1  $/;"	v
+g:quickui#style#border	autoload/quickui/style.vim	/^let g:quickui#style#border = get(g:, 'quickui#style#border', 1)$/;"	v
+g:quickui#style#border	plugin/quickui.vim	/^let g:quickui#style#border = get(g:, 'quickui_border_style', 1)$/;"	v
+g:quickui#style#preview_bordercolor	autoload/quickui/style.vim	/^let g:quickui#style#preview_bordercolor = ''$/;"	v
+g:quickui#style#preview_h	autoload/quickui/style.vim	/^let g:quickui#style#preview_h = 10$/;"	v
+g:quickui#style#preview_number	autoload/quickui/style.vim	/^let g:quickui#style#preview_number = 1$/;"	v
+g:quickui#style#preview_w	autoload/quickui/style.vim	/^let g:quickui#style#preview_w = 85$/;"	v
+g:quickui#style#tip_head	autoload/quickui/style.vim	/^let g:quickui#style#tip_head = '[tip]'$/;"	v
+g:quickui#tags#elapse	autoload/quickui/tags.vim	/^	let g:quickui#tags#elapse = reltimestr(reltime(start))$/;"	v
+g:quickui#terminal#current	autoload/quickui/terminal.vim	/^		let g:quickui#terminal#current = hwnd$/;"	v
+g:quickui#textbox#current	autoload/quickui/textbox.vim	/^	let g:quickui#textbox#current = local$/;"	v
+g:quickui#textbox#topline	autoload/quickui/textbox.vim	/^	let g:quickui#textbox#topline = topline$/;"	v
+g:quickui#tools#hint	autoload/quickui/tools.vim	/^	let g:quickui#tools#hint = item[1]$/;"	v
+g:quickui#utils#__cursor_index__	autoload/quickui/utils.vim	/^	let g:quickui#utils#__cursor_index__ = -1$/;"	v
+g:quickui#utils#__cursor_topline__	autoload/quickui/utils.vim	/^	let g:quickui#utils#__cursor_topline__ = -1$/;"	v
+g:quickui#utils#shell_error	autoload/quickui/utils.vim	/^	let g:quickui#utils#shell_error = s:shell_error$/;"	v
+g:quickui_mode	autoload/quickui/menu.vim	/^		let g:quickui_mode = a:2$/;"	v
+g:quickui_mode	autoload/quickui/menu.vim	/^let g:quickui_mode = 'normal'$/;"	v
+g:quickui_show_tip	test/demo_menu.vim	/^let g:quickui_show_tip = 1$/;"	v
+inst	test/test_listbox.vim	/^		let inst = quickui#listbox#create(lines, opts)$/;"	v
+item	autoload/quickui/context.vim	/^		let item = quickui#utils#item_parse("你好吗f&aha\\tAlt+x")	$/;"	v
+linelist	test/test_listbox.vim	/^	let linelist = [$/;"	v
+lines	autoload/quickui/context.vim	/^	let lines = [$/;"	v
+lines	autoload/quickui/textbox.vim	/^		let lines += ['printf("%d\\n", ' . (i + 1) . ');']$/;"	v
+lines	autoload/quickui/textbox.vim	/^	let lines = []$/;"	v
+lines	test/test_listbox.vim	/^		let lines += ['line: ' . ix]$/;"	v
+lines	test/test_listbox.vim	/^	let lines = [$/;"	v
+lines	test/test_nvim_context.vim	/^	let lines = [$/;"	v
+lines	test/test_nvim_textbox.vim	/^		let lines += ['printf("%d\\n", ' . (i + 1) . ');']$/;"	v
+lines	test/test_nvim_textbox.vim	/^	let lines = []$/;"	v
+menu	autoload/quickui/context.vim	/^		let menu = quickui#context#open(lines, opts)$/;"	v
+menu	test/test_nvim_context.vim	/^	let menu = quickui#context#open(lines, opts)$/;"	v
+opts	autoload/quickui/context.vim	/^	let opts = {'cursor': -1, 'line2':'cursor+1', 'col2': 'cursor', 'horizon':1}$/;"	v
+opts	autoload/quickui/context.vim	/^	let opts.callback = 'MyCallback'$/;"	v
+opts	autoload/quickui/context.vim	/^	let opts.reduce = 1$/;"	v
+opts	autoload/quickui/context.vim	/^	let opts.savepos = 'f'$/;"	v
+opts	autoload/quickui/textbox.vim	/^	let opts = {}$/;"	v
+opts	autoload/quickui/textbox.vim	/^	let opts.border = 0$/;"	v
+opts	autoload/quickui/textbox.vim	/^	let opts.color = "QuickBox"$/;"	v
+opts	autoload/quickui/textbox.vim	/^	let opts.cursor = 38$/;"	v
+opts	autoload/quickui/textbox.vim	/^	let opts.index = 30$/;"	v
+opts	autoload/quickui/textbox.vim	/^	let opts.number = 1$/;"	v
+opts	autoload/quickui/textbox.vim	/^	let opts.resize = 1$/;"	v
+opts	autoload/quickui/textbox.vim	/^	let opts.syntax = "cpp"$/;"	v
+opts	autoload/quickui/textbox.vim	/^	let opts.title = "title"$/;"	v
+opts	test/test_listbox.vim	/^	let opts = {'title': 'select'}$/;"	v
+opts	test/test_listbox.vim	/^	let opts = {'title':'Select', 'border':1, 'index':400, 'close':'button'}$/;"	v
+opts	test/test_listbox.vim	/^	let opts.callback = 'MyCallback'$/;"	v
+opts	test/test_listbox.vim	/^	let opts.context = 'asdfasdf'$/;"	v
+opts	test/test_listbox.vim	/^	let opts.keymap = {'=':'TAG:2', '-':'TAG:3'}$/;"	v
+opts	test/test_nvim_context.vim	/^	let opts = {'cursor': -1, 'line2':'cursor+1', 'col2': 'cursor', 'horizon':1}$/;"	v
+opts	test/test_nvim_context.vim	/^	let opts.callback = 'MyCallback'$/;"	v
+opts	test/test_nvim_list.vim	/^	let opts = {'title': 'select', 'context':'hahaha', 'close':'button'}$/;"	v
+opts	test/test_nvim_list.vim	/^	let opts.border = 2$/;"	v
+opts	test/test_nvim_list.vim	/^	let opts.callback = 'MyCallback'$/;"	v
+opts	test/test_nvim_list.vim	/^	let opts.index = 400$/;"	v
+opts	test/test_nvim_list.vim	/^	let opts.keymap = {'=':'TAG:1', '+':'TAG:1024'}$/;"	v
+opts	test/test_nvim_menu.vim	/^	let opts = {'name':'test'}$/;"	v
+opts	test/test_nvim_popup.vim	/^let opts = {'relative': 'editor', 'width': 10, 'height': 3, 'col': 0,$/;"	v
+opts	test/test_nvim_textbox.vim	/^	let opts = {'close':'button'}$/;"	v
+opts	test/test_nvim_textbox.vim	/^	let opts.index = 1$/;"	v
+opts	test/test_nvim_textbox.vim	/^	let opts.resize = 1$/;"	v
+opts	test/test_nvim_textbox.vim	/^	let opts.syntax = "cpp"$/;"	v
+opts	test/test_nvim_textbox.vim	/^	let opts.title = "title"$/;"	v
+opts	test/test_terminal.vim	/^let opts = {'w':60, 'h':8, 'callback':'TermExit'}$/;"	v
+opts	test/test_terminal.vim	/^let opts.title = 'Terminal Popup'$/;"	v
+quickui	plugin/quickui.vim	/^augroup quickui "{{{$/;"	a
+quickui#context#close	autoload/quickui/context.vim	/^function! quickui#context#close(hwnd)$/;"	f
+quickui#context#compile	autoload/quickui/context.vim	/^function! quickui#context#compile(items, border)$/;"	f
+quickui#context#open	autoload/quickui/context.vim	/^function! quickui#context#open(textlist, opts) range$/;"	f
+quickui#context#reduce_items	autoload/quickui/context.vim	/^function! quickui#context#reduce_items(textlist)$/;"	f
+quickui#context#update	autoload/quickui/context.vim	/^function! quickui#context#update(hwnd)$/;"	f
+quickui#core#around_cursor	autoload/quickui/core.vim	/^function! quickui#core#around_cursor(width, height)$/;"	f
+quickui#core#border_convert	autoload/quickui/core.vim	/^function! quickui#core#border_convert(pattern)$/;"	f
+quickui#core#border_extract	autoload/quickui/core.vim	/^function! quickui#core#border_extract(pattern)$/;"	f
+quickui#core#border_get	autoload/quickui/core.vim	/^function! quickui#core#border_get(name)$/;"	f
+quickui#core#border_install	autoload/quickui/core.vim	/^function! quickui#core#border_install(name, pattern)$/;"	f
+quickui#core#border_vim	autoload/quickui/core.vim	/^function! quickui#core#border_vim(name)$/;"	f
+quickui#core#chdir	autoload/quickui/core.vim	/^function! quickui#core#chdir(path)$/;"	f
+quickui#core#cursor_pos	autoload/quickui/core.vim	/^function! quickui#core#cursor_pos()$/;"	f
+quickui#core#escape	autoload/quickui/core.vim	/^function! quickui#core#escape(text)$/;"	f
+quickui#core#expand_text	autoload/quickui/core.vim	/^function! quickui#core#expand_text(string) abort$/;"	f
+quickui#core#high_region	autoload/quickui/core.vim	/^function! quickui#core#high_region(name, srow, scol, erow, ecol, virtual)$/;"	f
+quickui#core#in_screen	autoload/quickui/core.vim	/^function! quickui#core#in_screen(line, column, width, height)$/;"	f
+quickui#core#input	autoload/quickui/core.vim	/^function! quickui#core#input(prompt, text)$/;"	f
+quickui#core#instance	autoload/quickui/core.vim	/^function! quickui#core#instance()$/;"	f
+quickui#core#mock_function	autoload/quickui/core.vim	/^function! quickui#core#mock_function(id, text)$/;"	f
+quickui#core#object	autoload/quickui/core.vim	/^function! quickui#core#object(bid)$/;"	f
+quickui#core#object_acquire	autoload/quickui/core.vim	/^function! quickui#core#object_acquire(name)$/;"	f
+quickui#core#object_release	autoload/quickui/core.vim	/^function! quickui#core#object_release(name, obj)$/;"	f
+quickui#core#popup_alloc	autoload/quickui/core.vim	/^function! quickui#core#popup_alloc(name)$/;"	f
+quickui#core#popup_clear	autoload/quickui/core.vim	/^function! quickui#core#popup_clear(winid)$/;"	f
+quickui#core#popup_local	autoload/quickui/core.vim	/^function! quickui#core#popup_local(winid)$/;"	f
+quickui#core#popup_release	autoload/quickui/core.vim	/^function! quickui#core#popup_release(name, winid)$/;"	f
+quickui#core#scratch_buffer	autoload/quickui/core.vim	/^function! quickui#core#scratch_buffer(name, textlist)$/;"	f
+quickui#core#screen_fit	autoload/quickui/core.vim	/^function! quickui#core#screen_fit(line, column, width, height)$/;"	f
+quickui#core#single_parse	autoload/quickui/core.vim	/^function! quickui#core#single_parse(description)$/;"	f
+quickui#core#string_compose	autoload/quickui/core.vim	/^function! quickui#core#string_compose(target, pos, source)$/;"	f
+quickui#core#string_fit	autoload/quickui/core.vim	/^function! quickui#core#string_fit(source, size)$/;"	f
+quickui#core#string_replace	autoload/quickui/core.vim	/^function! quickui#core#string_replace(text, old, new)$/;"	f
+quickui#core#win_execute	autoload/quickui/core.vim	/^function! quickui#core#win_execute(winid, command)$/;"	f
+quickui#listbox#close	autoload/quickui/listbox.vim	/^function! quickui#listbox#close(hwnd)$/;"	f
+quickui#listbox#cursor_movement	autoload/quickui/listbox.vim	/^function! quickui#listbox#cursor_movement(where)$/;"	f
+quickui#listbox#inputlist	autoload/quickui/listbox.vim	/^function! quickui#listbox#inputlist(textlist, opts)$/;"	f
+quickui#listbox#open	autoload/quickui/listbox.vim	/^function! quickui#listbox#open(content, opts)$/;"	f
+quickui#listbox#parse	autoload/quickui/listbox.vim	/^function! quickui#listbox#parse(textlist)$/;"	f
+quickui#listbox#reposition	autoload/quickui/listbox.vim	/^function! quickui#listbox#reposition()$/;"	f
+quickui#menu#available	autoload/quickui/menu.vim	/^function! quickui#menu#available(name)$/;"	f
+quickui#menu#callback	autoload/quickui/menu.vim	/^function! quickui#menu#callback(winid, code)$/;"	f
+quickui#menu#change_ft	autoload/quickui/menu.vim	/^function! quickui#menu#change_ft(section, ft)$/;"	f
+quickui#menu#change_weight	autoload/quickui/menu.vim	/^function! quickui#menu#change_weight(section, weight)$/;"	f
+quickui#menu#clear	autoload/quickui/menu.vim	/^function! quickui#menu#clear(section)$/;"	f
+quickui#menu#close	autoload/quickui/menu.vim	/^function! quickui#menu#close()$/;"	f
+quickui#menu#context_exit	autoload/quickui/menu.vim	/^function! quickui#menu#context_exit(code)$/;"	f
+quickui#menu#create	autoload/quickui/menu.vim	/^function! quickui#menu#create(opts)$/;"	f
+quickui#menu#filter	autoload/quickui/menu.vim	/^function! quickui#menu#filter(winid, key)$/;"	f
+quickui#menu#install	autoload/quickui/menu.vim	/^function! quickui#menu#install(section, content, ...)$/;"	f
+quickui#menu#nvim_open_menu	autoload/quickui/menu.vim	/^function! quickui#menu#nvim_open_menu(opts)$/;"	f
+quickui#menu#open	autoload/quickui/menu.vim	/^function! quickui#menu#open(...)$/;"	f
+quickui#menu#preset	autoload/quickui/menu.vim	/^function! quickui#menu#preset(section, context, ...)$/;"	f
+quickui#menu#register	autoload/quickui/menu.vim	/^function! quickui#menu#register(section, entry, command, help)$/;"	f
+quickui#menu#remove	autoload/quickui/menu.vim	/^function! quickui#menu#remove(section, index)$/;"	f
+quickui#menu#reset	autoload/quickui/menu.vim	/^function! quickui#menu#reset()$/;"	f
+quickui#menu#section	autoload/quickui/menu.vim	/^function! quickui#menu#section(section)$/;"	f
+quickui#menu#switch	autoload/quickui/menu.vim	/^function! quickui#menu#switch(name)$/;"	f
+quickui#menu#update	autoload/quickui/menu.vim	/^function! quickui#menu#update()$/;"	f
+quickui#preview#close	autoload/quickui/preview.vim	/^function! quickui#preview#close()$/;"	f
+quickui#preview#display	autoload/quickui/preview.vim	/^function! quickui#preview#display(content, opts)$/;"	f
+quickui#preview#open	autoload/quickui/preview.vim	/^function! quickui#preview#open(content, opts)$/;"	f
+quickui#preview#scroll	autoload/quickui/preview.vim	/^function! quickui#preview#scroll(offset)$/;"	f
+quickui#preview#visible	autoload/quickui/preview.vim	/^function! quickui#preview#visible()$/;"	f
+quickui#tags#ctags_function	autoload/quickui/tags.vim	/^function! quickui#tags#ctags_function(bid, ft)$/;"	f
+quickui#tags#function_list	autoload/quickui/tags.vim	/^function! quickui#tags#function_list(bid, ft)$/;"	f
+quickui#tags#signature	autoload/quickui/tags.vim	/^function! quickui#tags#signature(funname, fn_only, filetype)$/;"	f
+quickui#tags#tagfind	autoload/quickui/tags.vim	/^function! quickui#tags#tagfind(tagname)$/;"	f
+quickui#tags#taglist	autoload/quickui/tags.vim	/^function! quickui#tags#taglist(pattern)$/;"	f
+quickui#terminal#create	autoload/quickui/terminal.vim	/^function! quickui#terminal#create(cmd, opts)$/;"	f
+quickui#terminal#open	autoload/quickui/terminal.vim	/^function! quickui#terminal#open(cmd, opts)$/;"	f
+quickui#textbox#close	autoload/quickui/textbox.vim	/^function! quickui#textbox#close(winid)$/;"	f
+quickui#textbox#command	autoload/quickui/textbox.vim	/^function! quickui#textbox#command(cmd, opts)$/;"	f
+quickui#textbox#create	autoload/quickui/textbox.vim	/^function! quickui#textbox#create(textlist, opts)$/;"	f
+quickui#textbox#open	autoload/quickui/textbox.vim	/^function! quickui#textbox#open(textlist, opts)$/;"	f
+quickui#textbox#reposition	autoload/quickui/textbox.vim	/^function! quickui#textbox#reposition()$/;"	f
+quickui#tools#buffer_switch	autoload/quickui/tools.vim	/^function! quickui#tools#buffer_switch(bid)$/;"	f
+quickui#tools#clever_context	autoload/quickui/tools.vim	/^function! quickui#tools#clever_context(name, content, opts)$/;"	f
+quickui#tools#clever_listbox	autoload/quickui/tools.vim	/^function! quickui#tools#clever_listbox(name, content, opts)$/;"	f
+quickui#tools#display_help	autoload/quickui/tools.vim	/^function! quickui#tools#display_help(tag)$/;"	f
+quickui#tools#display_messages	autoload/quickui/tools.vim	/^function! quickui#tools#display_messages()$/;"	f
+quickui#tools#list_buffer	autoload/quickui/tools.vim	/^function! quickui#tools#list_buffer(switch)$/;"	f
+quickui#tools#list_function	autoload/quickui/tools.vim	/^function! quickui#tools#list_function()$/;"	f
+quickui#tools#list_register	autoload/quickui/tools.vim	/^function! quickui#tools#list_register()$/;"	f
+quickui#tools#preview_quickfix	autoload/quickui/tools.vim	/^function! quickui#tools#preview_quickfix(...)$/;"	f
+quickui#tools#preview_tag	autoload/quickui/tools.vim	/^function! quickui#tools#preview_tag(tagname)$/;"	f
+quickui#tools#python_help	autoload/quickui/tools.vim	/^function! quickui#tools#python_help(word)$/;"	f
+quickui#utils#center	autoload/quickui/utils.vim	/^function! quickui#utils#center(winid)$/;"	f
+quickui#utils#context_align	autoload/quickui/utils.vim	/^function! quickui#utils#context_align(item, left_size, right_size)$/;"	f
+quickui#utils#current_topline	autoload/quickui/utils.vim	/^function! quickui#utils#current_topline()$/;"	f
+quickui#utils#errmsg	autoload/quickui/utils.vim	/^function! quickui#utils#errmsg(what)$/;"	f
+quickui#utils#get_cursor	autoload/quickui/utils.vim	/^function! quickui#utils#get_cursor(winid)$/;"	f
+quickui#utils#get_topline	autoload/quickui/utils.vim	/^function! quickui#utils#get_topline(winid)$/;"	f
+quickui#utils#highlight	autoload/quickui/utils.vim	/^function! quickui#utils#highlight(style)$/;"	f
+quickui#utils#item_parse	autoload/quickui/utils.vim	/^function! quickui#utils#item_parse(description)$/;"	f
+quickui#utils#keymap	autoload/quickui/utils.vim	/^function! quickui#utils#keymap()$/;"	f
+quickui#utils#make_border	autoload/quickui/utils.vim	/^function! quickui#utils#make_border(width, height, border, title, button)$/;"	f
+quickui#utils#max_height	autoload/quickui/utils.vim	/^function! quickui#utils#max_height(percentage)$/;"	f
+quickui#utils#movement	autoload/quickui/utils.vim	/^function! quickui#utils#movement(offset)$/;"	f
+quickui#utils#print	autoload/quickui/utils.vim	/^function! quickui#utils#print(content, highlight, ...)$/;"	f
+quickui#utils#scroll	autoload/quickui/utils.vim	/^function! quickui#utils#scroll(winid, offset)$/;"	f
+quickui#utils#search_next	autoload/quickui/utils.vim	/^function! quickui#utils#search_next(winid, cmd)$/;"	f
+quickui#utils#search_or_jump	autoload/quickui/utils.vim	/^function! quickui#utils#search_or_jump(winid, cmd)$/;"	f
+quickui#utils#show_cursor	autoload/quickui/utils.vim	/^function! quickui#utils#show_cursor(winid, row)$/;"	f
+quickui#utils#size_parse	autoload/quickui/utils.vim	/^function! quickui#utils#size_parse(text, is_height)$/;"	f
+quickui#utils#system	autoload/quickui/utils.vim	/^function! quickui#utils#system(cmd)$/;"	f
+quickui#utils#tools_width	autoload/quickui/utils.vim	/^function! quickui#utils#tools_width()$/;"	f
+quickui#utils#update_cursor	autoload/quickui/utils.vim	/^function! quickui#utils#update_cursor(winid)$/;"	f
+s:around_cursor	autoload/quickui/preview.vim	/^function! s:around_cursor(width, height)$/;"	f
+s:border_ascii	autoload/quickui/core.vim	/^let s:border_ascii = quickui#core#border_extract('+-+|-|+-+++')$/;"	v
+s:border_styles	autoload/quickui/core.vim	/^let s:border_styles = {}$/;"	v
+s:border_styles	autoload/quickui/core.vim	/^let s:border_styles[1] = quickui#core#border_extract('+-+|-|+-+++')$/;"	v
+s:border_styles	autoload/quickui/core.vim	/^let s:border_styles[2] = quickui#core#border_extract('┌─┐│─│└─┘├┤')$/;"	v
+s:border_styles	autoload/quickui/core.vim	/^let s:border_styles[3] = quickui#core#border_extract('╔═╗║─║╚═╝╟╢')$/;"	v
+s:border_styles	autoload/quickui/core.vim	/^let s:border_styles[4] = quickui#core#border_extract('\/-\\|-|\\-\/++')$/;"	v
+s:buffer_list	autoload/quickui/tools.vim	/^function! s:buffer_list()$/;"	f
+s:cmenu	autoload/quickui/menu.vim	/^let s:cmenu = {'state':0, 'index':0, 'size':0, 'winid':-1, 'drop':-1}$/;"	v
+s:context_dropdown	autoload/quickui/menu.vim	/^function! s:context_dropdown()$/;"	f
+s:cursor_move	autoload/quickui/context.vim	/^function! s:cursor_move(menu, cursor, toward)$/;"	f
+s:filter	autoload/quickui/context.vim	/^function! s:filter(textlist,mode)$/;"	f
+s:get_tools_width	autoload/quickui/tools.vim	/^function! s:get_tools_width()$/;"	f
+s:highlight_keys	autoload/quickui/listbox.vim	/^function! s:highlight_keys(winid, items)$/;"	f
+s:hilink	plugin/quickui.vim	/^function! s:hilink(name, target)$/;"	f
+s:home	plugin/quickui.vim	/^let s:home = fnamemodify(resolve(expand('<sfile>:p')), ':h')$/;"	v
+s:keymaps	autoload/quickui/tools.vim	/^let s:keymaps = '123456789abcdefimnopqrstuvwxyz'$/;"	v
+s:maps	autoload/quickui/utils.vim	/^let s:maps = {}$/;"	v
+s:maps	autoload/quickui/utils.vim	/^let s:maps["G"] = 'BOTTOM'$/;"	v
+s:maps	autoload/quickui/utils.vim	/^let s:maps["\\<CR>"] = 'ENTER'$/;"	v
+s:maps	autoload/quickui/utils.vim	/^let s:maps["\\<DOWN>"] = 'DOWN'$/;"	v
+s:maps	autoload/quickui/utils.vim	/^let s:maps["\\<END>"] = 'END'$/;"	v
+s:maps	autoload/quickui/utils.vim	/^let s:maps["\\<ESC>"] = 'ESC'$/;"	v
+s:maps	autoload/quickui/utils.vim	/^let s:maps["\\<HOME>"] = 'HOME'$/;"	v
+s:maps	autoload/quickui/utils.vim	/^let s:maps["\\<LEFT>"] = 'LEFT'$/;"	v
+s:maps	autoload/quickui/utils.vim	/^let s:maps["\\<PageDown>"] = 'PAGEDOWN'$/;"	v
+s:maps	autoload/quickui/utils.vim	/^let s:maps["\\<PageUp>"] = 'PAGEUP'$/;"	v
+s:maps	autoload/quickui/utils.vim	/^let s:maps["\\<RIGHT>"] = 'RIGHT'$/;"	v
+s:maps	autoload/quickui/utils.vim	/^let s:maps["\\<SPACE>"] = 'ENTER'$/;"	v
+s:maps	autoload/quickui/utils.vim	/^let s:maps["\\<UP>"] = 'UP'$/;"	v
+s:maps	autoload/quickui/utils.vim	/^let s:maps["\\<c-b>"] = 'PAGEUP'$/;"	v
+s:maps	autoload/quickui/utils.vim	/^let s:maps["\\<c-d>"] = 'HALFDOWN'$/;"	v
+s:maps	autoload/quickui/utils.vim	/^let s:maps["\\<c-f>"] = 'PAGEDOWN'$/;"	v
+s:maps	autoload/quickui/utils.vim	/^let s:maps["\\<c-g>"] = 'NOHL'$/;"	v
+s:maps	autoload/quickui/utils.vim	/^let s:maps["\\<c-h>"] = 'LEFT'$/;"	v
+s:maps	autoload/quickui/utils.vim	/^let s:maps["\\<c-j>"] = 'DOWN'$/;"	v
+s:maps	autoload/quickui/utils.vim	/^let s:maps["\\<c-k>"] = 'UP'$/;"	v
+s:maps	autoload/quickui/utils.vim	/^let s:maps["\\<c-l>"] = 'RIGHT'$/;"	v
+s:maps	autoload/quickui/utils.vim	/^let s:maps["\\<c-n>"] = 'NEXT'$/;"	v
+s:maps	autoload/quickui/utils.vim	/^let s:maps["\\<c-p>"] = 'PREV'$/;"	v
+s:maps	autoload/quickui/utils.vim	/^let s:maps["\\<c-u>"] = 'HALFUP'$/;"	v
+s:maps	autoload/quickui/utils.vim	/^let s:maps["g"] = 'TOP'$/;"	v
+s:maps	autoload/quickui/utils.vim	/^let s:maps['H'] = 'PAGEUP'$/;"	v
+s:maps	autoload/quickui/utils.vim	/^let s:maps['J'] = 'HALFDOWN'$/;"	v
+s:maps	autoload/quickui/utils.vim	/^let s:maps['K'] = 'HALFUP'$/;"	v
+s:maps	autoload/quickui/utils.vim	/^let s:maps['L'] = 'PAGEDOWN'$/;"	v
+s:maps	autoload/quickui/utils.vim	/^let s:maps['N'] = 'PREV'$/;"	v
+s:maps	autoload/quickui/utils.vim	/^let s:maps['i'] = 'UP'$/;"	v
+s:maps	autoload/quickui/utils.vim	/^let s:maps['j'] = 'RIGHT'$/;"	v
+s:maps	autoload/quickui/utils.vim	/^let s:maps['k'] = 'DOWN'$/;"	v
+s:maps	autoload/quickui/utils.vim	/^let s:maps['l'] = 'LEFT'$/;"	v
+s:maps	autoload/quickui/utils.vim	/^let s:maps['n'] = 'NEXT'$/;"	v
+s:maps	autoload/quickui/utils.vim	/^let s:maps['q'] = 'ESC'$/;"	v
+s:mouse_click	autoload/quickui/menu.vim	/^function! s:mouse_click()$/;"	f
+s:movement	autoload/quickui/menu.vim	/^function! s:movement(key)$/;"	f
+s:name	autoload/quickui/menu.vim	/^let s:name = 'system'$/;"	v
+s:namespace	autoload/quickui/menu.vim	/^let s:namespace = { 'system':{'config':{}, 'weight':100, 'index':0} }$/;"	v
+s:neovim_click	autoload/quickui/menu.vim	/^function! s:neovim_click()$/;"	f
+s:neovim_dropdown	autoload/quickui/menu.vim	/^function! s:neovim_dropdown()$/;"	f
+s:nvim_autocmd	autoload/quickui/preview.vim	/^function! s:nvim_autocmd()$/;"	f
+s:nvim_create_context	autoload/quickui/context.vim	/^function! s:nvim_create_context(textlist, opts)$/;"	f
+s:nvim_create_listbox	autoload/quickui/listbox.vim	/^function! s:nvim_create_listbox(textlist, opts)$/;"	f
+s:nvim_create_listbox	test/test_nvim_list.vim	/^function! s:nvim_create_listbox(textlist, opts)$/;"	f
+s:nvim_create_textbox	autoload/quickui/textbox.vim	/^function! s:nvim_create_textbox(textlist, opts)$/;"	f
+s:nvim_term_exit	autoload/quickui/terminal.vim	/^function! s:nvim_term_exit(jobid, data, event)$/;"	f
+s:on_click	autoload/quickui/context.vim	/^function! s:on_click(hwnd)$/;"	f
+s:on_confirm	autoload/quickui/context.vim	/^function! s:on_confirm(hwnd)$/;"	f
+s:parse_menu	autoload/quickui/menu.vim	/^function! s:parse_menu(name, padding)$/;"	f
+s:popup_exit	autoload/quickui/context.vim	/^function! s:popup_exit(winid, code)$/;"	f
+s:popup_exit	autoload/quickui/listbox.vim	/^function! s:popup_exit(winid, code)$/;"	f
+s:popup_exit	autoload/quickui/preview.vim	/^function! s:popup_exit(winid, code)$/;"	f
+s:popup_exit	autoload/quickui/textbox.vim	/^function! s:popup_exit(winid, code)$/;"	f
+s:popup_filter	autoload/quickui/context.vim	/^function! s:popup_filter(winid, key)$/;"	f
+s:popup_filter	autoload/quickui/listbox.vim	/^function! s:popup_filter(winid, key)$/;"	f
+s:popup_filter	autoload/quickui/textbox.vim	/^function! s:popup_filter(winid, key)$/;"	f
+s:press_esc	autoload/quickui/preview.vim	/^function! s:press_esc()$/;"	f
+s:previous_cursor	autoload/quickui/tools.vim	/^let s:previous_cursor = {}$/;"	v
+s:private	autoload/quickui/preview.vim	/^let s:private = {'winid': -1, 'background': -1, 'state':0}$/;"	v
+s:python_system	autoload/quickui/utils.vim	/^function! s:python_system(cmd, version)$/;"	f
+s:remember_cursor_context	autoload/quickui/tools.vim	/^function! s:remember_cursor_context(code)$/;"	f
+s:remember_cursor_listbox	autoload/quickui/tools.vim	/^function! s:remember_cursor_listbox(code)$/;"	f
+s:rtp	plugin/quickui.vim	/^let s:rtp = fnamemodify(s:home, ':h')$/;"	v
+s:scheme	plugin/quickui.vim	/^let s:scheme = get(g:, 'quickui_color_scheme', '')$/;"	v
+s:section_compare	autoload/quickui/menu.vim	/^function! s:section_compare(s1, s2)$/;"	f
+s:vim_create_context	autoload/quickui/context.vim	/^function! s:vim_create_context(textlist, opts)$/;"	f
+s:vim_create_listbox	autoload/quickui/listbox.vim	/^function! s:vim_create_listbox(textlist, opts)$/;"	f
+s:vim_create_textbox	autoload/quickui/textbox.vim	/^function! s:vim_create_textbox(textlist, opts)$/;"	f
+s:vim_popup_callback	autoload/quickui/terminal.vim	/^function! s:vim_popup_callback(winid, code)$/;"	f
+s:vim_term_exit	autoload/quickui/terminal.vim	/^function! s:vim_term_exit(job, message)$/;"	f
+win	test/test_nvim_popup.vim	/^let win = nvim_open_win(buf, 0, opts)$/;"	v
+winid	autoload/quickui/textbox.vim	/^	let winid = quickui#textbox#open(lines, opts)$/;"	v
